@@ -4,7 +4,7 @@ Private messages
 
 Приватные сообщения (не чат).
 
-Обновление сообщений при отправке или в фоне каждые 30 секунд (это можно изменить в "vendor\vision\yii2-private-messages\js\private_mess_pooling.js").
+Обновление сообщений при отправке или в фоне каждые 30 секунд (это можно изменить в "vendor\oreolek\yii2-private-messages\js\private_mess_pooling.js").
 Есть возможность отправлять копию сообщения на email пользователя.
 Возможен режим когда пользователи будут видеть и смогут писать сообщения только указанным администраторам.
 Также возможно в фоне проверять кол-во новых сообщений + их авторов.
@@ -46,7 +46,7 @@ yii migrate --migrationPath=@vendor/vision/yii2-private-messages/migrations/
      {
          return [
              'private-messages' => [
-                 'class' => \vision\messages\actions\MessageApiAction::className()
+                 'class' => \oreolek\messages\actions\MessageApiAction::className()
              ]
          ];
      }
@@ -58,7 +58,7 @@ yii migrate --migrationPath=@vendor/vision/yii2-private-messages/migrations/
 'components' => [...
         'mymessages' => [
                 //Обязательно
-            'class'    => 'vision\messages\components\MyMessages',
+            'class'    => 'oreolek\messages\components\MyMessages',
                 //не обязательно
                 //класс модели пользователей
                 //по-умолчанию \Yii::$app->user->identityClass
@@ -101,17 +101,17 @@ yii migrate --migrationPath=@vendor/vision/yii2-private-messages/migrations/
 Для работы достаточно во вьюхе вывести виджет
 
 ```
-<?= vision\messages\widgets\CloadMessage::widget() ?>
+<?= oreolek\messages\widgets\CloadMessage::widget() ?>
 ```
 или
 ```
-<?= vision\messages\widgets\PrivateMessageKushalpandyaWidget::widget() ?>
+<?= oreolek\messages\widgets\PrivateMessageKushalpandyaWidget::widget() ?>
 ```
 
 
 
 Если необходимо в фоне проверять новые сообщения мы можем зарегестрировать 
-vision\messages\assets\PrivateMessPoolingAsset
+oreolek\messages\assets\PrivateMessPoolingAsset
 
 и добавить нужный нам слушатель
 ```

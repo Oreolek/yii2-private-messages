@@ -1,9 +1,9 @@
 <?php
 
-namespace vision\messages\widgets;
+namespace oreolek\messages\widgets;
 
 
-use vision\messages\assets\MessageAssets;
+use oreolek\messages\assets\MessageAssets;
 use \yii\base\Widget;
 use yii\helpers\Html;
 

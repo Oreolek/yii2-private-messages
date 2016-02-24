@@ -1,6 +1,6 @@
 <?php
 
-namespace vision\messages\models;
+namespace oreolek\messages\models;
 
 use Yii;
 use yii\behaviors\TimestampBehavior;

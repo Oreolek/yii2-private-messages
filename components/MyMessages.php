@@ -6,14 +6,14 @@
  * Time: 17:26
  */
 
-namespace vision\messages\components;
+namespace oreolek\messages\components;
 
 use Yii;
 use yii\base\Component;
 use yii\helpers\Html;
-use vision\messages\models\Messages;
-use vision\messages\exceptions\ExceptionMessages;
-use vision\messages\events\MessageEvent;
+use oreolek\messages\models\Messages;
+use oreolek\messages\exceptions\ExceptionMessages;
+use oreolek\messages\events\MessageEvent;
 use yii\base\InvalidConfigException;
 
 

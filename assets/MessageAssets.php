@@ -6,7 +6,7 @@
  * Time: 14:05
  */
 
-namespace vision\messages\assets;
+namespace oreolek\messages\assets;
 
 
 class MessageAssets extends BaseMessageAssets {
@@ -16,7 +16,7 @@ class MessageAssets extends BaseMessageAssets {
     ];
 
     public $depends = [
-        'vision\messages\assets\PrivateMessPoolingAsset',
+        'oreolek\messages\assets\PrivateMessPoolingAsset',
         'yii\web\JqueryAsset'
     ];
 

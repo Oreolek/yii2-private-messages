@@ -6,7 +6,7 @@
  * Time: 12:58
  */
 
-namespace vision\messages\assets;
+namespace oreolek\messages\assets;
 
 
 class MessageKushalpandyaAssets extends BaseMessageAssets  {
@@ -16,7 +16,7 @@ class MessageKushalpandyaAssets extends BaseMessageAssets  {
     ];
 
     public $depends = [
-        'vision\messages\assets\MessageAssets'
+        'oreolek\messages\assets\MessageAssets'
     ];
 
 } 

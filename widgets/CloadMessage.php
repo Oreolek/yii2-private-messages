@@ -6,9 +6,9 @@
  * Time: 10:43
  */
 
-namespace vision\messages\widgets;
+namespace oreolek\messages\widgets;
 
-use vision\messages\assets\CloadAsset;
+use oreolek\messages\assets\CloadAsset;
 use yii\helpers\Html;
 
 

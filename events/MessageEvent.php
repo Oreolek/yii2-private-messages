@@ -6,7 +6,7 @@
  * Time: 10:45
  */
 
-namespace vision\messages\events;
+namespace oreolek\messages\events;
 
 use yii\base\Event;
 

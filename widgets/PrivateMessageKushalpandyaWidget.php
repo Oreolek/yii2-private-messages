@@ -6,9 +6,9 @@
  * Time: 12:57
  */
 
-namespace vision\messages\widgets;
+namespace oreolek\messages\widgets;
 
-use vision\messages\assets\MessageKushalpandyaAssets;
+use oreolek\messages\assets\MessageKushalpandyaAssets;
 
 
 class PrivateMessageKushalpandyaWidget extends PrivateMessageWidget {

@@ -6,7 +6,7 @@
  * Time: 14:46
  */
 
-namespace vision\messages\assets;
+namespace oreolek\messages\assets;
 
 
 class SortElementsAsset extends BaseMessageAssets {

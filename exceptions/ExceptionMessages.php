@@ -6,7 +6,7 @@
  * Time: 10:12
  */
 
-namespace vision\messages\exceptions;
+namespace oreolek\messages\exceptions;
 
 use \yii\base\UserException;
 

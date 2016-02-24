@@ -6,7 +6,7 @@
  * Time: 13:25
  */
 
-namespace vision\messages\assets;
+namespace oreolek\messages\assets;
 
 
 

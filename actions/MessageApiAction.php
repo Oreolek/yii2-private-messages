@@ -6,13 +6,11 @@
  * Time: 12:50
  */
 
-namespace vision\messages\actions;
+namespace oreolek\messages\actions;
 
 use Yii;
 use yii\base\Action;
-use vision\messages\exceptions\ExceptionMessages;
-
-
+use oreolek\messages\exceptions\ExceptionMessages;
 
 class MessageApiAction extends Action {
 

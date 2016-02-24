@@ -6,7 +6,7 @@
  * Time: 17:19
  */
 
-namespace vision\messages\assets;
+namespace oreolek\messages\assets;
 
 
 class PrivateMessPoolingAsset extends BaseMessageAssets {

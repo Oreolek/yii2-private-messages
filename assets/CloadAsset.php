@@ -1,13 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: VisioN
- * Date: 26.08.2015
- * Time: 12:53
- */
-
-namespace vision\messages\assets;
-
+namespace oreolek\messages\assets;
 
 class CloadAsset extends BaseMessageAssets {
 
@@ -20,9 +12,9 @@ class CloadAsset extends BaseMessageAssets {
     ];
 
     public $depends = [
-        'vision\messages\assets\PrivateMessPoolingAsset',
-        'vision\messages\assets\TinyscrollbarAsset',
-        'vision\messages\assets\SortElementsAsset'
+        'oreolek\messages\assets\PrivateMessPoolingAsset',
+        'oreolek\messages\assets\TinyscrollbarAsset',
+        'oreolek\messages\assets\SortElementsAsset'
     ];
 
 }
