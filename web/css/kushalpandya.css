@@ -65,11 +65,8 @@ body {
 .main-message-container {
     display: block;
     margin: auto;
-    margin-top: 2.5%;
     height: 520px; /*Global Height of Widget*/
-    width: 1000px; /*Global Width of Widget*/
     background: #E1E1E1;
-    box-shadow: 0px 0px 50px #1E1E1E;
 }
 
 .main-message-container > .message-north {
